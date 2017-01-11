@@ -1,0 +1,407 @@
+/* Layout */
+
+body {
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+	color:#2a3845;
+	background-color: #72DCF5;
+	padding: 0;
+	margin-right: 100px;
+	margin-left: 20px;
+	margin-bottom: 460px;
+}
+
+p {
+	padding: 0;
+	color: #1C0B07;
+	font-size: 1.2em;
+}
+
+em {
+	color: 	#0000CD;
+
+}
+
+#wrapper {
+
+	 width: auto;
+
+	
+}
+
+#nav {
+	background:#06a;
+	text-align:right;
+	color:#f6dde3;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	float: left;
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+#header {
+	float: left;
+	position: fixed;
+	padding-top: 0px;
+	
+	
+}
+
+#bg {
+	height:36px;
+    background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+}
+
+#main-content {
+	float: left;
+	margin: 0 auto;
+	
+}
+
+#main-image {
+	width: auto;
+	height: auto;
+	margin-left:auto;
+	
+}
+
+#left-column {
+	width: auto;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#right-column {
+	width: auto;
+	float: left;
+	margin-left: auto;
+	
+	
+}
+
+.sidebar {
+    background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+    width: 400px;
+
+    
+	
+}
+
+#footer {
+	position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    clear:both;
+    color: :white;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:#273C83;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#a43b55;
+	text-decoration:none;
+	background:#0B0B0A;
+}
+
+h1 {
+	color:#F5F5F5;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom: thin solid ;
+}
+
+h2 {
+	color:#F0FFFF;
+	margin:5px 0 10px;
+	padding-bottom:5px;
+	font:normal 17px Georgia, serif;
+	border-bottom:10px solid #efece7;
+	background-color: #000000;
+	float: center;
+}
+
+h3 {
+	color:#7a2e40;
+	margin:10px 0;
+	padding-bottom:0px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	/**background-color: #FFFFFF;*/
+	
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+   list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:#27252E;
+	padding:15px;
+	font-size: 1.2em;
+	
+}
+.box > p {
+	color: white;
+}
+.box > ul > li {
+	color : white;
+}
+.box > ul > li > a {
+	color: white;
+}
+.contacts {
+	background-color: #090A09;
+}
+.contacts > p {
+	color: white;
+}
+.contacts > form {
+	color: yellow;
+}
+
+.quotes{
+	background: #7FFF00;
+}
+
+.gallery {
+
+	float: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#slider {
+	 margin: 80px auto;
+	 position: relative;
+	 width: 240px;
+	 height: 240px;
+	 padding: 10px;
+	 box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slider >div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+div.vertical-line{
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
+#nav a {
+	margin: 0 50px;
+	-webkit-transition: all 1s ease;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Georgia, serif;
+	color:#4B0082;
+	text-align:center;
+	background-color: #90EE90;
+}
+.about {
+
+	float: right;
+}
+
+.img {
+	float: left;
+
+}
+
+.section {
+	color: #0F0604;
+	background-color: #635A58;
+	color:#F5F5F5;
+	font:normal 18px Georgia, serif;
+}
+.section > ul > li {
+	font-size: 0em;
+}
+
+
+.company {
+	color: black;
+}
+
+.title {
+	color: black;
+}
+.title > ul  > li {
+	font-size: 350%;
+}
+
+.activity {
+	color: #080F47;
+}
+.bio {
+	background-color: #0A0E83;
+}
+.bio > p {
+	color: white;
+}
+.bio > h1 {
+	color: #A5E618;
+}
+.bio > h3 {
+	color: #A5E618;
+}
+
+.resume {
+	background-color: #D7AD4D;
+}
+.courses {
+	font-size: 110%;
+}
+.skills {
+	font-size: 110%;
+}
+.roles {
+	font-size: 110%;
+}
+img{
+	float: left;
+	margin-right: 15px;
+
+}
+
+li {
+
+	color: #101111;
+
+}
+figcaption {
+	display: block;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+	left: 0;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {
+  	font-size: 11px;
+  	float: center
+  }
+
+  #About {
+  	background-color: #FFF5EE;
+
+  }
+}
+

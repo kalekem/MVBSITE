@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Cleophas Kalekem: Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--<script type="text/javascript" src="slide.js"></script> -->
+    <script type="text/javascript" src="slider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+
+<body>
+	<div id= "wrapper">
+		<div id="header">
+			<div id="nav"><a href="index.html">Home</a>
+			 | <a href="#About">About Me</a>
+			 | <a href="#Resume">Resume</a>
+			 | <a href="#Projects">Projects</a> 
+			 | <a href="#contact">Contact Me</a> 
+			 | <a href="#rssfeeds">News Feeds</a> 
+			 | <a href="#Twitter">Twitter</a> 
+			</div>
+			<div id="bg"></div>
+		</div>
+<br><br><br>
+
+<h1 style = "color: black"></strong>CLEOPHAS KALEKEM</strong></h1>
+
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 15</div>
+		<a href ="Images/pic1.jpg"> <img src="Images/pic1.jpg" style="width:100%" ></a>
+		<div class="text">Image One</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 15</div>
+		<a href="Images/pic2.jpg"> <img src="Images/pic2.jpg" style="width:100%" > </a>
+		<div class="text">Image Two</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 15</div>
+		<a href="Images/pic3.jpg"><img src="Images/pic3.jpg" style="width: 100%" ></a>
+		<div class="text">Image Three</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 15</div>
+		<a href="Images/pic4.jpg"><img src="Images/pic4.jpg" style="width:100%" ></a>
+		<div class="text">Image Four</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 15</div>
+		<a href="Images/pic5.jpg"><img src="Images/pic5.jpg" style="width:100%" ></a>
+		<div class="text">Image Five</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">6 / 15</div>
+		<a href="Images/pic6.jpg"><img src="Images/pic6.jpg" style="width:100%" ></a>
+		<div class="text">Image Six</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">7 / 15</div>
+		<a href="Images/pic7.jpg"><img src="Images/pic7.jpg" style="width:100%" ></a>
+		<div class="text">Image Seven</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">8 / 15</div>
+		<a href="Images/pic8.jpg"><img src="Images/pic8.jpg" style="width:100%" ></a>
+		<div class="text">Image Eight</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">9 / 15</div>
+		<a href="Images/pic9.jpg"><img src="Images/pic9.jpg" style="width:100%" ></a>
+		<div class="text">Image Nine</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">10 / 15</div>
+		<a href="Images/pic10.jpg"><img src="Images/pic10.jpg" style="width:100%" ></a>
+		<div class="text">Image Ten</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">11 / 15</div>
+		<a href="Images/pic11.jpg"> <img src="Images/pic11.jpg" style="width:100%" ></a>
+		<div class="text">Image Eleven</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">12 / 15</div>
+		<a href="Images/pic13.jpg"><img src="Images/pic13.jpg" style="width:100%" ></a>
+		<div class="text">Image Twelve</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">13 / 15</div>
+		<a href="Images/pic14.jpg"><img src="Images/pic14.jpg" style="width:100%" ></a>
+		<div class="text">Image Thirteen</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">14 / 15</div>
+		<a href="Images/pic15.jpg"> <img src="Images/pic15.jpg" style="width:100%" ></a>
+		<div class="text">Image Fourteen</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">15 / 15</div>
+		<a href="Images/pic17.jpg"> <img src="Images/pic17.jpg" style="width:100%" ></a>
+		<div class="text">Image Fifteen</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+	<a class="next" onclick="plusSlides(1)">&#8594;</a>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span> 
+  <span class="dot" onclick="currentSlide(11)"></span> 
+  <span class="dot" onclick="currentSlide(12)"></span> 
+  <span class="dot" onclick="currentSlide(13)"></span> 
+  <span class="dot" onclick="currentSlide(14)"></span> 
+  <span class="dot" onclick="currentSlide(15)"></span>
+</div>
+</div>
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  
+  if (n > slides.length) {
+
+  	slideIndex = 1;
+
+  }    
+
+  if (n < 1) {
+
+  	slideIndex = slides.length;
+
+  }
+
+  for (i = 0; i < slides.length; i++) {
+
+      slides[i].style.display = "none"; 
+
+  }
+
+  for (i = 0; i < dots.length; i++) {
+
+      dots[i].className = dots[i].className.replace(" active", "");
+
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+
+}
+
+</script>
+
+
+	<div id="main-content">
+		<div id="left-column">
+			<div class="box">
+        		<p>This is my personal website. Brief summary about myself: </p>
+				<ul style="margin-top:10px;">
+					<li>I am a Kenyan</li>
+					<li>I am a Kensaper: Click <a href =" http://kensap.org/" target ="_blank" > KENSAP</a> to learn more about KENSAP program</li>
+					<li>I am a Wien Scholar: Click <a href ="https://www.brandeis.edu/isso/about/wien/index.html" target = "_blank"> Wien Scholarship</a> to learn more about the Wien Scholarship Program</li>
+					<li>I study Computer Science and Economics at <a href ="https://www.brandeis.edu/" target = "_blank">Brandeis University</a></li>
+					<li>I am a SENIOR!! a.k.a I'm in my last year of undergraduate level</li>
+				</ul>
+			</div>
+			<br>
+
+	<div id="About"></div>
+
+	<br><br><br>
+		
+	<div class ="bio">
+		
+		<h1 ><strong>BIOGRAPHY</strong></h1>
+		<br>
+		
+		<div id="main-image"><a href = "Images/official.jpg"><img src="Images/official.jpg" width= "500" height = "500" /></a></div>
+		
+		<h3><strong>EARLY LIFE</strong></h3>
+
+		<p>I was born and raised in Parua location, West Pokot County, Kapenguria, Kenya. I went to Parua Primary School for my primary and Chewoyet High School for the secondary education. Both schools are located in West Pokot County. The county is in the North-Western part of Kenya. The community's main economic activity is livestock keeping and farming.</p>
+		
+		<p>I was born to a family of seven. My parents practice subsistence farming. They did not attain any formal education but they ensured that my siblings and I all went to school.</p>
+
+		<p>I came to the US in 2013 courtesy of <a href ="http://kensap.org/" target ="_blank">KENSAP Scholarship </a>. I would say KENSAP program was the best thing that happened to me. It had always been my dream to study abroad but I never knew it was going to come through.</p>
+
+		<p>Having grown up in the rural village in West Pokot, Kenya, coming to the US was a tremendous eye opening. Over my last four years at Brandeis University, I have met incredible people, made amazing friends, expanded my network of friends, learnt a little bit about different cultures and most importantly pursued COMPUTER SCIENCE and ECONOMICS - courses I never had any previous experience with!</p>
+
+		<p>Now that I'm close to graduation - May, 2017, I'm looking forward to securing a job in Software Engineering as I have a great passion in technology and with my degree in Computer Science and Economics, I hope to gain experience that will enable me to start my own consulting IT company in the next few years to come</p>
+
+		<p>I'm also working on projects back home to inspire the hundreds of young adults to pursue their dreams. Having received my primary and high school education in my home county of West Pokot, I deeply understand the challenges that the community face. It's my plan to establish programs in the community that will give the students opportunity to access facilities they completely lack at the moment. These include electricity supply, internet connectivity, and better learning materials. It's my great desire to pass the message to those still in their primary and high school education in the village that THEIR DREAMS ARE VALID and that they should never give up despite the challenges they face!. If I made it with the very limited resources, so too they can!</p>
+		<br>
+	</div>
+
+<br><br>
+
+
+<div id="Resume"></div>
+<div class = "resume">
+
+<br><br>
+
+<h1 style="color: black"><strong>RESUME</strong><h1>
+<h3 align = "center"; style= "color: black"> <strong>CLEOPHAS KALEKEM</strong></h3>
+<p align = "center"> 415 South Street | Waltham, MA 02453 |781-839-0887 |ckalekem@brandeis.edu </p>
+
+<div class ="section">EDUCATION</div>
+
+<p><strong>Brandeis University</strong>, Waltham, MA</p>
+<p>Bachelor of Arts in Computer Science and Economics</p>
+<p>Minor: Business</p>
+<p><strong>Honors</strong>: Dean's List, Wien International Scholarship, Kenya Scholar-Athlete Project Scholarship (KenSAP)</p>
+
+<div class = "section">RELEVANT COURSES </div>
+<div class ="courses">
+<ul>
+	<li>Introduction to Programming in Java and C</li>
+	<li>Advanced Programming Techniques</li>
+	<li>Data Structures and Fundamentals of Computing</li>
+	<li>Software Entrepreneurship</li>
+	<li> Operating Systems </li>
+	<li>Discrete Structures </li>
+	<li> Human Computer Interaction</li>
+	<li> Introduction to 3D Animation </li>
+	<li>Introduction to Computers
+    <li>Econometrics </li>
+    <li>Financial Economics</li>
+    <li>Financial Accounting</li>
+    <li>Statistics for Economic Analysis</li>
+    <li>Macroeconomic Theory</li>
+    <li> Microeconomic Theory</li>
+    <li>Techniques of Calculus</li>
+    <li>Functions of the Capitalist Enterprise</li>
+    <li>International Trade Theory</li>
+    <li>Global Economy</li>
+    <li>American Fiscal Policy</li>
+    <li>Political Economy of Third World Countries
+</ul>
+</div>
+<br>
+
+<div class = "section">SKILLS AND STRENGHTS </div>
+<div class = "skills">
+<ul>
+	<li><strong>Programming Languages:</strong> Java, SQL, Python, C++, C, Ruby on Rails, JavaScript, HTML/CSS</li>
+	<li><strong>Software:</strong> Selenium, Jenkins, QTP, Maven, JUnit, TestNG, Adobe Photoshop, Stata, Bloomberg Terminal</li>
+	<li><strong>Operating Systems:</strong> Windows (7, 8, 10), Mac OS, Linux</li>
+	<li><strong>Github Account: </strong><a href = "https://github.com/kalekem" target ="_blank"> https://github.com/kalekem</a></li>
+</ul>
+</div>
+
+<br>
+
+<div class = "section">EXPERIENCE</div>
+<div class = "roles" >
+	<div class = "company"><strong>Cartera Commerce Inc. , Lexington, MA &nbsp; May 2016 - Aug. 2016</strong></div>
+	<div class = "title"><strong>Quality Assurance Engineering Intern</strong></div>
+
+	<ul>
+		<li>Designed, executed and reported results on implementing QE process in order to provide a better customer experience by modernizing the company's web-based platforms</li>
+		<li>Created test data and generated SQL queries and scripts that provided in an automated way consistent and detailed test cases for all the company's responsive web-based platforms</li>
+		<li>Kept track of daily refreshed snapshots of data and documented the steps to recreate data that eventually helped the automation team</li>
+	</ul>
+	
+	<br>
+
+	<div class ="company"><strong>Brandeis University - International Business School (IBS), Waltham, MA &nbsp; May 2015 - Present</strong></div>
+
+	<div class = "title"><strong>Help Desk Technician</strong></div>
+	<ul>
+		<li>Manage daily operations for the University Help Desk supporting faculty, staff and the students</li>
+		<li>Support classroom technology including Creston and Extron devices, projectors, audio and touch panel interface</li>
+		<li>Diagnose laptops/desktops, repair, imaging and troubleshoot internet connection issues</li>
+
+	</ul>
+
+	<br>
+
+	<div class = "company"><strong> Brandeis University - Library and Technology Services (LTS), Waltham, MA &nbsp; May 2014 - Present </strong></div>
+	<div class = "title"><strong> Information Technology and Borrowing Assistant</strong></div>
+	<ul>
+		<li>Provide daily direct front desk library assistance to Brandeis students, faculty, staff and guests</li>
+		<li>Execute borrowing and return transactions</li>
+		<li>Participate in accurate processing and shelving of the library's physical collections of over 2 million volumes</li>
+		<li>Troubleshoot technology problems i.e. scanners, printers, and internet connections</li>
+
+	</ul>
+	<br>
+	<div class = "company"><strong> Brandeis University - Library and Technology Services (LTS), Waltham, MA, &nbsp; Oct. 2015 - Aug. 2016</strong> </div>
+	<div class = "title"> <strong>Student Assistant for Research Technology and Innovation </strong></div>
+	<ul>
+		<li>Supported technology needs in the lab environment </li>
+		<li>Worked with other student researchers and innovators to come up with new pieces of technology in the lab.</li>
+		<li>Designed 3D object prototypes</li>
+		<li>Used Simplify3D and Mesh mixer software to slice 3D objects.</li>
+		<li>Troubleshooted 3D printers, and helped students connect to the campus wifi </li>
+
+	</ul>
+<br>
+<div class = "section"> ACTIVITIES </div>
+<div class = "activity"><strong>Coapital - Co-founder and Technology Chair, &nbsp; Sep.2015 -Present</strong> </div>
+<ul>
+	<li>Coapital's Website: <a href = "http://www.coapital.com/" target = "_blank">http://www.coapital.com</a></li>
+	<li>Founded a global entrepreneurial club with the intention of bringing together students with a vast array of backgrounds in order to learn about business practices in one another's home countries</li>
+	<li>Moderate weekly meetings regarding current global business developments and future club events</li>
+	<li>Manage and update the website and take care of the technical support that the club require.</li>
+
+</ul>
+<br>
+<div class = "activity"> <strong>Brandeis African Students Organization (BASO) - Cultural Liaison</strong> </div>
+<ul>
+	<li>Attended intercultural weekly meetings. </li>
+	<li>Wrote blogs about the club's activities and events- Here is one of the blog I wrote about the night for Africa: 
+		<a href= "https://brandeisicc.wordpress.com/2014/11/16/baso-night-for-africa-the-beauty-within/" target ="_blank">Night For Africa: The Beauty Within</a></li>
+	<li>Worked with the EBOARD members to organize weekly meetings, plan events and activities such as the Night for Africa and the Taste for Africa</li>
+	<li>Participated in recruiting new members to the club and organized the election of new board members</li>
+</ul>
+</div>
+</div>
+
+<br><br>
+
+<div id= "Projects"></div>
+<div style = "background-color: #DEE1AA">
+<h1 style = "color: black"> <strong>PROJECTS</strong></h1>
+<div class ="section">PROJECT 1: UXCHANGE</div>
+
+<p>This was a class project for my Human-Computer Interaction Class with Prof. Richard Alterman. The project was designed for students to easily sell their items online</p>
+
+<h1 style ="color: black">DESIGN PROBLEM</h1>
+<p>Throughout the year, students, staff and the faculty wish to buy, sell or offer for free items they
+do not need online. However, the existing platforms are highly disorganized and sometimes are
+not safe to use. The process of posting items for sale, searching for items to buy and even paying
+for such items is frustrating, time consuming and annoying. Therefore, our project will focus on
+the following design problems:
+
+<ol>
+		<li> A tagging system to allow users shopping for items (buyers) to easily check if what
+	they are looking for is currently being sold and allow users selling items (sellers) to
+	classify their items as they wish</li>
+		<li>An integrated messaging system to allow for easy and faster communication between
+	the users</li>
+		<li>A rating system (five-star rating system) in which users can rate each other after
+	transactions</li>
+		<li>A notification system so that users can be notified depending on their preferences (ex.
+	when they receive a message, when a new item is posted for the tags of their interest)</li>
+		<li>A favoriting/removing system whereby users can swipe to remove items they are not
+	interested in or favorite items they wish to have easy access to</li>
+</ol>
+</p>
+<br>
+
+<h1 style ="color: black">PROBLEM SPACE </h1>
+<p>Posting items for sale and searching for items to buy in the current existing social platforms is
+painful process to most users. Users have to go through a long registration process to create
+accounts and when they post items for sale they do not tag them on different categories. This
+means that users buying items through the platform have to spend a lot of time searching for
+items to buy due to the high disorganization of the platforms. Most of the platforms also do not
+have integrated messaging system or other efficient means of communication which causes
+communication breakdown between users. As a result, the process becomes time consuming,
+frustrating, confusing and annoying to the users. Many users would want these platforms to have
+a tagging system to allow users shopping for different items to easily check if what they are
+looking to buy is currently being sold, an integrated messaging system to allow for easy and
+faster communication between users and a five-star rating system in which users can rate each
+other after transactions. Users with higher rates can easily find someone to buy their products as
+higher ratings gives a mental idea of what other users think of a particular person during and
+after the transaction interactional process. Items with higher ratings will also be placed on top of
+the specific category that the item belong</p>
+
+<p>-------------------------------------------------------------------</p>
+<p>--------------------------------------------------------------------</p>
+
+<p>Download the full report at <a href ="UXchange.pdf">UXchange pdf file </a> to read more about this project</p>
+
+</div>
+<br><br>
+
+<div style = "background-color: #EAEF5A">
+<div class ="section">PROJECT 2: E-FARMERS</div>
+<p>This was a project we worked on for my Software Entrepreneurship class with Professor Pito Salas </p>
+
+<h1 style ="color:black">MISION AND VISION</h1>
+<p>Our mission is to revolutionize the way farmers carry out farming and conduct agribusiness by
+introducing modern technology. Through our mobile app, we offer farmers and businesses a
+central, online marketplace to shop for better prices and better quality. Farmers who need
+superior equipment at low prices, businesses looking for better deals on products, and even
+businessmen looking to lease and own land will now have an up-to-date, advanced community in
+which to shop for the best deals.
+We want to be the safest, most efficient and most effective medium in which farmers can sell and
+advertise their products, get agricultural news, and get advice on where to buy genuine farm
+equipment. We hope businesses will welcome this direct-to-producer interface in which they can
+negotiate for and get better agricultural decisions without the need or expense of a middleman</p>
+<br>
+
+<h1 style ="color:black">ELEVATOR PITCH</h1>
+<p>Are you a farmer interested in expanding your customer base or a business in need of better
+quality produce? Do you need a better market to shop for quality goods and services? We’re
+building an app that will help farmers all over the world connect with willing buyers and sellers
+of produce, farming tools, and supplies. With an entire marketplace available to businesses and
+farmers, we can expand the global environment for trade and help thousands - if not millions - of
+farmers get better prices for their produce and help businesses get more bang for their buck</p>
+
+<h1 style = "color: black">DESCRIPTION</h1>
+<p>Kenya has the largest and the most diversified economy in East Africa. Agriculture is the
+backbone of the country's economy and the government has put a lot of measures and strategies
+for agricultural development. The sector accounts for more than 25% of the country's total gross
+domestic product (GDP). However, the sector faces myriad of challenges, some of which include
+poor infrastructure - such as roads - which lead to high transportation costs for agricultural tools,
+inputs and products. It also leads to spoilage of perishable commodities during transportation
+causing high losses to farmers. Lack of information on the side of the farmers due to limited
+spread of technology makes them miss out on the improved methods of farming and selling their
+products to the right markets at the right prices.
+Finding a market for agricultural products is also another major challenge facing most large and
+small scale farmers in the country. Many farmers only sell on market days, missing out on the
+bigger customer base. In other cases, middlemen buy their products at low prices taking
+advantage of the fact that the farmers do not have enough knowledge on the price of their
+products in other markets. Businesses miss out on the opportunity to buy quality goods at an
+affordable price because they are unaware or unable to participate.
+E-Farmers was created in an attempt to allow both parties - producers and consumers - an
+opportunity to conduct business at a fair price. We want to create an online, global marketplace,
+like Amazon and eBay, to allow the fair transaction of goods at an affordable price. Farmers now
+have a large platform to sell their products without the hassle of economic loss they usually face,
+as well as access to affordable tools and inputs. In addition to basics, we plan to offer a
+consulting feature for farmers and businesses. The consultants would be professionals with a
+training in agriculture and business who can offer support on the ground if necessary. Later
+implementations of this app would include a GroupBuy or a GroupSell feature, in which
+businesses and farmers can buy and sell products in bulk with other businesses and farmers. With
+these features and proper in-country groundwork, we expect E-Farmers can help shape and
+change the way agribusiness is done in Kenya.
+</p>
+<p>-------------------------------------------------------------</p>
+<p>--------------------------------------------------------------</p>
+<br>
+<p>Download the full report at <a href ="Efarmers.pdf">E-FARMERS pdf file </a> to read more about this project</p>
+<br>
+</div>
+
+<br><br>
+<div id="contact"></div>
+<br><br>
+<div class= "contacts">
+<h1 style = "color: white"><strong>CONTACT ME</strong></h1>
+
+	<br>
+	<p> Fill your information below and I'll get back to you as soon as possible</p>
+
+	<form action="thankyou.php" method="post">
+	 	
+	 	Name:<br><input type="text" name="your_name" required><br>
+
+	 	Email:<br><input type="email" name="your_email" required><br>
+	 
+		Subject:<br><input type="text" name="subject" required><br>
+	 
+		Message:<br><input type="text" name="message" required><br>
+		<br>
+		<input type="submit" value="Submit"><br>
+	</form>
+</div>
+	<br><br>
+
+	<div id= "SocialMedia"></div>
+	<h1 style = "color: black"><strong>FOLLOW ME ON SOCIAL MEDIA</strong></h1>
+	<p> Follow me on Twitter, Facebook and LinkedIn</p>
+		<div class="box">
+		<ul>
+			<li><a href="https://www.facebook.com/kalekem.cleo" >Facebook</a></li>
+			<br>
+			<li><a href="https://twitter.com/CKalekem">Twitter</a></li>
+			<br>
+			<li><a href="https://www.linkedin.com/in/cleophas-kalekem-82142286" >LinkedIn</a></li>
+		</ul>
+		</div>
+
+	<br><br>
+	<!--this pulls daily Reuters news feeds -->
+	<div id ="rssfeeds"></div>
+
+	<br><br>
+
+	<h1 style ="color: black"><strong>NEWS FEEDS<strong></h1>
+	<h2 style ="color: white"><strong>REUTERS: TECHNOLOGY NEWS<strong></h2>
+	<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22type%22%3A%22%22%2C%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtechnologyNews%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+	<br>
+	<h2 style ="color: white"><strong>REUTERS: BUSINESS NEWS<strong></h2>
+	<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22type%22%3A%22%22%2C%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FbusinessNews%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+
+	<br>
+	<h2 style ="color: white"><strong>YAHOO TECH<strong></h2>
+	<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22type%22%3A%22%22%2C%22sources%22%3A%5B%7B%22source%22%3A%22https%3A%2F%2Fwww.yahoo.com%2Ftech%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+	<br>
+	<h2 style ="color: white"><strong>TECHNOLOGY NEWS: CNET<strong></h2>
+	<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22type%22%3A%22%22%2C%22sources%22%3A%5B%7B%22source%22%3A%22https%3A%2F%2Fwww.cnet.com%2Fnews%2F%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+	<br>
+	<h2 style ="color: white"><strong>ENTREPRENEUR: LATEST TECHNOLOGY ARTICLES<strong></h2>
+	<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22type%22%3A%22%22%2C%22sources%22%3A%5B%7B%22source%22%3A%22https%3A%2F%2Fwww.entrepreneur.com%2Ftopic%2Ftechnology%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+	<div id ="Twitter"></div>
+	<br><br>
+
+	<h1 style ="color: black"><strong>TWITTER FEEDS<strong></h1>
+
+	<!--pulls up my twitter feeds -->
+	<a class="twitter-timeline" href="https://twitter.com/CKalekem">Tweets by CKalekem</a> 
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<br><br><br>
+<hr>
+</body>
+</html>
