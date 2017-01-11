@@ -156,7 +156,7 @@ ul {
 	color : white;
 }
 .box > ul > li > a {
-	color: white;
+	color: blue;
 }
 .contacts {
 	background-color: #090A09;
@@ -272,6 +272,9 @@ div.vertical-line{
 }
 .bio > h3 {
 	color: #A5E618;
+}
+.bio a {
+	color: yellow;
 }
 
 .resume {
