@@ -48,29 +48,6 @@
 		  ga('create', 'UA-61125123-1', 'auto');
 		  ga('send', 'pageview');
 	</script>
-
-<script>
-$(document).ready(function(){
-  // smooth scrolling to all links
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      // Prevents default anchor click behavior
-      event.preventDefault();
-      // Stores hash
-      var hash = this.hash;
-      // jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Adds hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 </head>
 
 <body>
@@ -209,38 +186,6 @@ $(document).ready(function(){
   <span class="dot" onclick="currentSlide(15)"></span>
 </div>
 </div>
-
-<script>
-	var slideIndex = 1;
-	showSlides(slideIndex);
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  
-  if (n > slides.length) {
-  	slideIndex = 1;
-  }    
-  if (n < 1) {
-  	slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
 
 	<div id="main-content">
 		<div id="left-column">
@@ -594,6 +539,62 @@ change the way agribusiness is done in Kenya.
 	<!--pulls up my twitter feeds -->
 	<a class="twitter-timeline" href="https://twitter.com/CKalekem">Tweets by CKalekem</a> 
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!--allows smooth scrolling to all the links -->
+<script>
+$(document).ready(function(){
+  // smooth scrolling to all links
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      // Prevents default anchor click behavior
+      event.preventDefault();
+      // Stores hash
+      var hash = this.hash;
+      // jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Adds hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<!-- allows manual slideshow for the pictures -->
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  
+  if (n > slides.length) {
+  	slideIndex = 1;
+  }    
+  if (n < 1) {
+  	slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 
 <br><br><br>
