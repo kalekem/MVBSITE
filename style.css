@@ -439,17 +439,11 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: center;
     
 }
 .dropbtn {
-	width: 1230px;
-	text-align: left;
-	padding: 20px 25px;
-	font-size: 250%;
-
-}
-p, .dropbtn {
-	width: 1230px;
+	font-size: 300%;
 
 }
 
