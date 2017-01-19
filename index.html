@@ -37,6 +37,7 @@
 	  	<script src="jquery/jquery-2.0.3.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	    <script src="../components/web-animations-js/web-animations.min.js"></script>
 	    <script type="text/javascript" src="slider.js"></script>
 	    <script type="text/javascript" src="scrollview.js"></script>
 
@@ -235,12 +236,12 @@
 				<div id="div2">RESUME--------------RESUME---------------RESUME-------------RESUME-------------</div>
 				<div id="div3">RESUME--------------RESUME---------------RESUME-------------RESUME-------------</div>
 			</div>
-
 			<br><br>
-
 			<div id="Resume"></div>
 			<div class = "resume">
 				<h1 style="color: black"><strong>RESUME</strong></h1>
+				<p style="text-align: center;"><a href ="Images/MyResume.jpg" ><img src="Images/MyResume.jpg"  width = "700" height = "500" alt="Resume Icon"></a></p>
+			
 				<h3 align = "center"; style= "color: black"> <strong>CLEOPHAS KALEKEM</strong></h3>
 				<p align = "center"> 415 South Street | Waltham, MA 02453 |781-839-0887 |ckalekem@brandeis.edu </p>
 
@@ -365,126 +366,143 @@
 				<div id="div3">PROJECTS----------------PROJECTS------------PROJECTS----------------PROJECTS------------</div>
 			</div>
 		<br><br><br>
+		<div style = "background-color: #3B4125">
+			<div class = "cs">
+				
+				<div id="Projects"></div>
+				<h1 style = "color: black"> <strong>PROJECTS</strong></h1>
+				<p style="text-align: center;"><a href ="Images/csProjects.png" ><img src="Images/csProjects.png"  width = "480" height = "480" alt="CS Projects"></a></p>
+				
+				<h2 style = "color: white"> <strong>COMPUTER SCIENCE PROJECTS</strong></h2>
+				<div class ="section">PROJECT 1: UXCHANGE</div>
 
-		<div id="Projects"></div>
-		<div style = "background-color: #27D1B8 ">
+				<p>This was a class project for my Human-Computer Interaction Class with Prof. Richard Alterman. The project was designed for students to easily sell their items online</p>
 
-			<h1 style = "color: black"> <strong>PROJECTS</strong></h1>
-			<h2 style = "color: white"> <strong>COMPUTER SCIENCE PROJECTS</strong></h2>
-			<div class ="section">PROJECT 1: UXCHANGE</div>
+				<h2 style ="color: blue">DESIGN PROBLEM</h2>
+				<p>Throughout the year, students, staff and the faculty wish to buy, sell or offer for free items they
+				do not need online. However, the existing platforms are highly disorganized and sometimes are
+				not safe to use. The process of posting items for sale, searching for items to buy and even paying
+				for such items is frustrating, time consuming and annoying. Therefore, our project will focus on
+				the following design problems:
 
-			<p>This was a class project for my Human-Computer Interaction Class with Prof. Richard Alterman. The project was designed for students to easily sell their items online</p>
+				<ul>
+					<li> A tagging system to allow users shopping for items (buyers) to easily check if what
+					they are looking for is currently being sold and allow users selling items (sellers) to
+					classify their items as they wish</li>
+					<li>An integrated messaging system to allow for easy and faster communication between
+					the users</li>
+					<li>A rating system (five-star rating system) in which users can rate each other after
+					transactions</li>
+					<li>A notification system so that users can be notified depending on their preferences (ex.
+					when they receive a message, when a new item is posted for the tags of their interest)</li>
+					<li>A favoriting/removing system whereby users can swipe to remove items they are not
+					interested in or favorite items they wish to have easy access to</li>
+				</ul>
+				</p>
+				<br>
 
-			<h1 style ="color: black">DESIGN PROBLEM</h1>
-			<p>Throughout the year, students, staff and the faculty wish to buy, sell or offer for free items they
-			do not need online. However, the existing platforms are highly disorganized and sometimes are
-			not safe to use. The process of posting items for sale, searching for items to buy and even paying
-			for such items is frustrating, time consuming and annoying. Therefore, our project will focus on
-			the following design problems:
+				<h2 style ="color: blue">PROBLEM SPACE </h2>
+				<p>Posting items for sale and searching for items to buy in the current existing social platforms is
+				painful process to most users. Users have to go through a long registration process to create
+				accounts and when they post items for sale they do not tag them on different categories. This
+				means that users buying items through the platform have to spend a lot of time searching for
+				items to buy due to the high disorganization of the platforms. Most of the platforms also do not
+				have integrated messaging system or other efficient means of communication which causes
+				communication breakdown between users. As a result, the process becomes time consuming,
+				frustrating, confusing and annoying to the users. Many users would want these platforms to have
+				a tagging system to allow users shopping for different items to easily check if what they are
+				looking to buy is currently being sold, an integrated messaging system to allow for easy and
+				faster communication between users and a five-star rating system in which users can rate each
+				other after transactions. Users with higher rates can easily find someone to buy their products as
+				higher ratings gives a mental idea of what other users think of a particular person during and
+				after the transaction interactional process. Items with higher ratings will also be placed on top of
+				the specific category that the item belong</p>
 
-			<ol>
-				<li> A tagging system to allow users shopping for items (buyers) to easily check if what
-				they are looking for is currently being sold and allow users selling items (sellers) to
-				classify their items as they wish</li>
-				<li>An integrated messaging system to allow for easy and faster communication between
-				the users</li>
-				<li>A rating system (five-star rating system) in which users can rate each other after
-				transactions</li>
-				<li>A notification system so that users can be notified depending on their preferences (ex.
-				when they receive a message, when a new item is posted for the tags of their interest)</li>
-				<li>A favoriting/removing system whereby users can swipe to remove items they are not
-				interested in or favorite items they wish to have easy access to</li>
-			</ol>
-			</p>
-			<br>
+				<p>-------------------------------------------------------------------</p>
+				<p>--------------------------------------------------------------------</p>
 
-			<h1 style ="color: black">PROBLEM SPACE </h1>
-			<p>Posting items for sale and searching for items to buy in the current existing social platforms is
-			painful process to most users. Users have to go through a long registration process to create
-			accounts and when they post items for sale they do not tag them on different categories. This
-			means that users buying items through the platform have to spend a lot of time searching for
-			items to buy due to the high disorganization of the platforms. Most of the platforms also do not
-			have integrated messaging system or other efficient means of communication which causes
-			communication breakdown between users. As a result, the process becomes time consuming,
-			frustrating, confusing and annoying to the users. Many users would want these platforms to have
-			a tagging system to allow users shopping for different items to easily check if what they are
-			looking to buy is currently being sold, an integrated messaging system to allow for easy and
-			faster communication between users and a five-star rating system in which users can rate each
-			other after transactions. Users with higher rates can easily find someone to buy their products as
-			higher ratings gives a mental idea of what other users think of a particular person during and
-			after the transaction interactional process. Items with higher ratings will also be placed on top of
-			the specific category that the item belong</p>
-
-			<p>-------------------------------------------------------------------</p>
-			<p>--------------------------------------------------------------------</p>
-
-			<p>Download the full report at <a href ="UXchange.pdf">UXchange pdf file </a> to read more about this project</p>
+				<p>Download the full report at <a href ="UXchange.pdf">UXchange pdf file </a> to read more about this project</p>
+			</div>
 		</div>
 		<br><br>
 
 		<div style = "background-color: #EAEF5A">
 			<div class ="section">PROJECT 2: E-FARMERS</div>
-			<p>This was a project we worked on for my Software Entrepreneurship class with Professor Pito Salas </p>
+			<div class = "farmers">
+				<p style="text-align: center;"><a href ="Images/farmers.jpg" ><img src="Images/farmers.jpg"  width = "700" height = "500" alt="Farmers' App"></a></p>
 
-			<h1 style ="color:black">MISION AND VISION</h1>
-			<p>Our mission is to revolutionize the way farmers carry out farming and conduct agribusiness by
-			introducing modern technology. Through our mobile app, we offer farmers and businesses a
-			central, online marketplace to shop for better prices and better quality. Farmers who need
-			superior equipment at low prices, businesses looking for better deals on products, and even
-			businessmen looking to lease and own land will now have an up-to-date, advanced community in
-			which to shop for the best deals.
-			We want to be the safest, most efficient and most effective medium in which farmers can sell and
-			advertise their products, get agricultural news, and get advice on where to buy genuine farm
-			equipment. We hope businesses will welcome this direct-to-producer interface in which they can
-			negotiate for and get better agricultural decisions without the need or expense of a middleman</p>
-			<br>
+				<p>This was a project we worked on for my Software Entrepreneurship class with Professor Pito Salas </p>
 
-			<h1 style ="color:black">ELEVATOR PITCH</h1>
-			<p>Are you a farmer interested in expanding your customer base or a business in need of better
-			quality produce? Do you need a better market to shop for quality goods and services? We’re
-			building an app that will help farmers all over the world connect with willing buyers and sellers
-			of produce, farming tools, and supplies. With an entire marketplace available to businesses and
-			farmers, we can expand the global environment for trade and help thousands - if not millions - of
-			farmers get better prices for their produce and help businesses get more bang for their buck</p>
+				<h2 style ="color:white">MISION AND VISION</h2>
+				<p>Our mission is to revolutionize the way farmers carry out farming and conduct agribusiness by
+				introducing modern technology. Through our mobile app, we offer farmers and businesses a
+				central, online marketplace to shop for better prices and better quality. Farmers who need
+				superior equipment at low prices, businesses looking for better deals on products, and even
+				businessmen looking to lease and own land will now have an up-to-date, advanced community in
+				which to shop for the best deals.
+				<br><br>
 
-			<h1 style = "color: black">DESCRIPTION</h1>
-			<p>Kenya has the largest and the most diversified economy in East Africa. Agriculture is the
-			backbone of the country's economy and the government has put a lot of measures and strategies
-			for agricultural development. The sector accounts for more than 25% of the country's total gross
-			domestic product (GDP). However, the sector faces myriad of challenges, some of which include
-			poor infrastructure - such as roads - which lead to high transportation costs for agricultural tools,
-			inputs and products. It also leads to spoilage of perishable commodities during transportation
-			causing high losses to farmers. Lack of information on the side of the farmers due to limited
-			spread of technology makes them miss out on the improved methods of farming and selling their
-			products to the right markets at the right prices.
-			Finding a market for agricultural products is also another major challenge facing most large and
-			small scale farmers in the country. Many farmers only sell on market days, missing out on the
-			bigger customer base. In other cases, middlemen buy their products at low prices taking
-			advantage of the fact that the farmers do not have enough knowledge on the price of their
-			products in other markets. Businesses miss out on the opportunity to buy quality goods at an
-			affordable price because they are unaware or unable to participate.
-			E-Farmers was created in an attempt to allow both parties - producers and consumers - an
-			opportunity to conduct business at a fair price. We want to create an online, global marketplace,
-			like Amazon and eBay, to allow the fair transaction of goods at an affordable price. Farmers now
-			have a large platform to sell their products without the hassle of economic loss they usually face,
-			as well as access to affordable tools and inputs. In addition to basics, we plan to offer a
-			consulting feature for farmers and businesses. The consultants would be professionals with a
-			training in agriculture and business who can offer support on the ground if necessary. Later
-			implementations of this app would include a GroupBuy or a GroupSell feature, in which
-			businesses and farmers can buy and sell products in bulk with other businesses and farmers. With
-			these features and proper in-country groundwork, we expect E-Farmers can help shape and
-			change the way agribusiness is done in Kenya.
-			</p>
+				We want to be the safest, most efficient and most effective medium in which farmers can sell and
+				advertise their products, get agricultural news, and get advice on where to buy genuine farm
+				equipment. We hope businesses will welcome this direct-to-producer interface in which they can
+				negotiate for and get better agricultural decisions without the need or expense of a middleman</p>
+				<br>
 
-			<p>-------------------------------------------------------------</p>
-			<p>--------------------------------------------------------------</p>
-			<br>
+				<h2 style ="color:white">ELEVATOR PITCH</h2>
+				<p>Are you a farmer interested in expanding your customer base or a business in need of better
+				quality produce? Do you need a better market to shop for quality goods and services? We’re
+				building an app that will help farmers all over the world connect with willing buyers and sellers
+				of produce, farming tools, and supplies. With an entire marketplace available to businesses and
+				farmers, we can expand the global environment for trade and help thousands - if not millions - of
+				farmers get better prices for their produce and help businesses get more bang for their buck</p><br>
 
-			<p>Download the full report at <a href ="Efarmers.pdf">E-FARMERS pdf file </a> to read more about this project</p>
-			<br><br><br>
+				<h2 style = "color: white">DESCRIPTION</h2>
+				<p>Kenya has the largest and the most diversified economy in East Africa. Agriculture is the
+				backbone of the country's economy and the government has put a lot of measures and strategies
+				for agricultural development. The sector accounts for more than 25% of the country's total gross
+				domestic product (GDP). However, the sector faces myriad of challenges, some of which include
+				poor infrastructure - such as roads - which lead to high transportation costs for agricultural tools,
+				inputs and products. It also leads to spoilage of perishable commodities during transportation
+				causing high losses to farmers. Lack of information on the side of the farmers due to limited
+				spread of technology makes them miss out on the improved methods of farming and selling their
+				products to the right markets at the right prices.
+				<br><br>
+
+				Finding a market for agricultural products is also another major challenge facing most large and
+				small scale farmers in the country. Many farmers only sell on market days, missing out on the
+				bigger customer base. In other cases, middlemen buy their products at low prices taking
+				advantage of the fact that the farmers do not have enough knowledge on the price of their
+				products in other markets. Businesses miss out on the opportunity to buy quality goods at an
+				affordable price because they are unaware or unable to participate.
+				<br><br>
+
+				E-Farmers was created in an attempt to allow both parties - producers and consumers - an
+				opportunity to conduct business at a fair price. We want to create an online, global marketplace,
+				like Amazon and eBay, to allow the fair transaction of goods at an affordable price. Farmers now
+				have a large platform to sell their products without the hassle of economic loss they usually face,
+				as well as access to affordable tools and inputs. In addition to basics, we plan to offer a
+				consulting feature for farmers and businesses. The consultants would be professionals with a
+				training in agriculture and business who can offer support on the ground if necessary. Later
+				implementations of this app would include a GroupBuy or a GroupSell feature, in which
+				businesses and farmers can buy and sell products in bulk with other businesses and farmers. With
+				these features and proper in-country groundwork, we expect E-Farmers can help shape and
+				change the way agribusiness is done in Kenya.
+				</p>
+
+				<p>-------------------------------------------------------------</p>
+				<p>--------------------------------------------------------------</p>
+				<br>
+
+				<p>Download the full report at <a href ="Efarmers.pdf">E-FARMERS pdf file </a> to read more about this project</p>
+				<br><br><br>
+			</div>
 		</div>
 		<h2 style = "color: white"> <strong>BUSINESS PROJECTS</strong></h2>
+
 		<div class = "section" >Business 10a: Functions of the Capitalist Enterprise</div>
+
+		<p style="text-align: center;"><a href ="Images/business.png" ><img src="Images/business.png"  width = "700" height = "500" alt="Business Icon"></a></p>
+
 		<div style = "background-color: #4A111E">
 			<div class = "business">
 				<br>
@@ -501,13 +519,19 @@
 				best selling toy ever. We will talk much more about this later. In 1960 Mattel introduced a talking doll
 				that revolutionized the toy industry, Chatty Cathy. The pull string talking mechanism used for Chatty
 				Cathy was implemented in several later toys such as See 'N Say, which was introduced in 1965.
+				<br><br>
+
 				Mattel went public in 1960 and was listed on the New York Stock Exchange in 1963. Mattel also
 				acquired a number of companies during the 1960s. Another one of Mattel’s flagship products, Hot
 				Wheels , was first introduced in 1968. The Handlers left the company in 1974 to pursue other interests.
+				<br><br>
+
 				Throughout the 1990s, Mattel acquired many companies. In 1993, 1997, and 1998, Mattel
 				purchased Fisher-Price Inc., Tyco Toys , Inc. and Pleasant Company (maker of the American Girl brand),
 				respectively. Mattel purchased The Learning Co. in 1999 for $3.5 billion, but sold it in 2000 at a loss. The
 				company had a $430.9 million net loss that year.
+				<br><br>
+
 				Mattel closed its last factory in the United States in 2002, originally part of the Fisher-Price
 				division, outsourcing production to China which began a chain of events that led to a scandal involving
 				lead contamination. On August 14, 2007, Mattel recalled over 18 million products because many of them
@@ -519,13 +543,19 @@
 				the Consumer Products Safety Commission for marketing, importing, and selling non-compliant toys.
 				Mattel was lauded as a gold standard for its crisis response by several publications, including PRWeek ,
 				the Los Angeles Times , Fortune Magazine and Business Management .
+				<br><br>
+
 				In early 2010, HiT Entertainment licensed Thomas & Friends to Mattel for toys. Mattel agreed to
 				purchase HiT Entertainment sans Sprout from Apax Partners group in October 2011 for $680 million. The
 				merger was completed on February 1, 2012, and HiT Entertainment became a wholly owned subsidiary of
 				Mattel, managed by its Fisher-Price unit.
+				<br><br>
+
 				Fortune Magazine named Mattel as one of the top 100 companies to work for in 2013. Only 1,292
 				positions were newly filled out of 164,045 job applications during the previous year. Additionally, more
 				than 1,000 employees have been with the company longer than 15 years.
+				<br><br>
+
 				Mattel launched its small in-house film studio, Playground Productions , in October 2013. This
 				was in order handle multi-media production, films, TV shows, web series, live events, and games for
 				Mattel's brands. Its first animated project is “ Team Hot Wheels: The Origin of Awesome ”. Mattel has
@@ -539,6 +569,8 @@
 				politics, different cultures and social norms. The original image Barbie portrayed was a clean-cut image
 				that reminded mothers of their youthful age, along with a motivational female character that could do
 				anything and be anyone (Cook, 2003). This created a very dominant position in the doll market.
+				<br><br>
+
 				As the product line continued to develop, negative images started surfacing in regards to body
 				image, and self-perception. People started to blame Barbie because of how her body presented unrealistic
 				proportions, which created bad publicity for the doll (Open For Business, 2011). But because Barbie
@@ -550,15 +582,21 @@
 				“ grappling with sluggish toy sales as kids spend more time playing on electronic devices. Total revenue
 				also fell for a fourth straight period, with worldwide sales of Barbie dropping 21 percent and Fisher-Price
 				toys falling 16 percent” (Bloomberg).
+				<br><br>
+
 				This Sharp drop in Barbie’s sales was partly self-inflicted since the company over-shipped the
 				product to retailers, leaving them overloaded in inventory when it didn’t sell. It also heavily marketed the
 				Barbie Dream-house, which sold for $150, leaving parents little extra to spend on smaller items</p>
 				<br>
 				<h1 style ="color:yellow">WHAT SHOULD THE MANAGEMENT DO</h1>
 				<p>We performed a SWOT analysis of the Barbie brand in order to inform our recommendations for
-				Mattel going forward.<br><br>
+				Mattel going forward.</p><br><br>
+
+				<p><a href ="Images/swot.png" ><img src="Images/swot.png"  width = "500" height = "500" alt="Swot Analysis"></a></p>
+
+
 				<strong style="color:yellow">STRENGTHS-</strong><br><br>
-				Barbie has incredible brand awareness. Ninety percent of American girls ages three to 10 own at
+				<p>Barbie has incredible brand awareness. Ninety percent of American girls ages three to 10 own at
 				least one Barbie. But Barbie’s brand recognition and success is not limited to the United States. Barbie
 				has been in Europe since 1961. She has was been in India since 1987. She has her own awards show
 				honoring inspirational women each year in Mexico. In the Caribbean, she even has a her own Barbie
@@ -567,7 +605,10 @@
 				54 years. Barbie has also distinguished herself through her versatile wardrobe and array of accessories.
 				She has outfits for virtually every occasion and almost every mainstream profession imaginable. Right
 				now Barbie is experiencing her “I Can Be” campaign, in which she has outfits for everything from flight
-				attendant to pop singer. The brand has also diversified, to some capacity, beyond dolls. It extended its
+				attendant to pop singer. 
+				<br><br>
+
+				The brand has also diversified, to some capacity, beyond dolls. It extended its
 				name to straight-to-video movies, clothing and computer games. Barbie also has her collectibles, which
 				are sold and advertised separately such as the Dream House, Ponies, etc. Another current strength of the
 				brand is its Purchasing power is increasing in emerging market. It gives reason to believe that there is
@@ -576,6 +617,8 @@
 				Mattel have said toy sales in 2013 tripled in Russia and nearly doubled in China. Barbie is also doing
 				very well in places Romania and Mexico. Its market share is 30 and 40 percent higher then Monster
 				High’s in those countries respectively.<br><br>
+
+
 				<strong style="color:yellow">WEAKNESSES -</strong><br><br>
 				One of Barbies clear weaknesses the controversiality surrounding Barbie’s image. For almost as
 				long as the Barbie has existed, she has been criticized for the unrealistic standard of beauty that she sets
@@ -592,6 +635,8 @@
 				like new again. This most likely is a big factor in Barbie’s free falling doll sales. Its sales have fallen for
 				nine consecutive quarters now, in the last four quarters sales have fallen by double digits. Though Barbie
 				still is on top of the global doll market, her longterm future in that spot is uncertain.
+				<br><br>
+
 				Opportunities -
 				Barbie dolls primary demographic these days is children 3 to 6. Starting at 7, Boys tend to go for
 				computer and video games, and girls become more interested in music, clothes, make-up, television talent
@@ -602,6 +647,8 @@
 				These films are generally stand alone films that feature Barbie as a heroine of several princess or
 				fairy-themed stories to accompany a franchise of related dolls and accessories. Barbie also has its own
 				web series, “Barbie: Life in the Dreamhouse”, which is specifically targeted at slightly older girls.
+				<br><br>
+
 				Additionally Mattel has created a Barbie app that allows the user to create customized Barbie outfits.
 				These are all important changes that Mattel needed to make to reclaim its former demographic footholds,
 				but it is not enough. Mattel should be more aggressive with expansion into other forms of media. This
@@ -615,7 +662,10 @@
 				Mattel ought to take the same approach. until recently Mattel was still treating Barbie.com as an
 				advertising forum, rather than as a money-earning product directly integrated with the sale of physical
 				toys. If a toy company wants to be successful in the twenty first century it must master the technological
-				mediums that occupy today’s youth.<br><br>
+				mediums that occupy today’s youth.
+
+				<br><br>
+				
 				<strong style="color:yellow">THREATS -</strong><br><br>
 				As we discussed earlier, according to the survey by the National Retail Federation, Barbie is not
 				the most coveted toy for girls this holiday season. toys based on characters from the movie Frozen have
@@ -631,7 +681,9 @@
 				its about 2 to 6. The demographic range that Barbie appeals to has shrunk because children are now more
 				then ever racing to be like their teenage peers. Children want to get older faster. This has been bad news
 				for no just Barbie but the entire toy industry. Children see their older brothers and sisters with playing
-				with tech gadgets and they want them too.<br><br>
+				with tech gadgets and they want them too.
+				<br><br>
+				
 				<strong style="color:yellow">RECOMMENDATION -</strong><br><br>
 				Based on our analysis of the company we recommend that Mattel more aggressively expand
 				Barbie’s presence to other mediums, such as video games, television and feature length film. Barbie’s
@@ -645,7 +697,10 @@
 				computer games and television need to be a key part of this strategy as well though. This is because a
 				child is not going to sit down and watch the same full length film everyday (generally speaking). What
 				they will do is run to their computer after school to play their favorite computer games. They may also
-				come home and watch television. Barbie’s web series is doing relatively well but young children still
+				come home and watch television. 
+				<br><br>
+
+				Barbie’s web series is doing relatively well but young children still
 				watch most of their show on an actual television. All of these things will not just produce revenue on their
 				own Hasbro but they will almost certainly boost Barbie doll sales. Hasbro one of Mattel’s other rivals,
 				has found that “Kids who are playing Monopoly at home on the Wii will be more likely to play the games
@@ -661,11 +716,12 @@
 			</div>
 		</div>
 		<br><br>
+		
 		<div class = "section" >Business 6a: Hasbro and Mattel Financial Statement Analysis</div>
-
+		<p><a href ="Images/finance.jpg" ><img src="Images/finance.jpg"  width = "600" height = "500" alt="Swot Analysis"></a></p>
 		<div style = "background-color: #210E13">
 			<div class ="finance">
-				<h3>COMPANY(s): HASBRO AND MATTEL </h3>
+				<h3 style ="color: white">COMPANY(s): HASBRO AND MATTEL </h3>
 				<p>This was my FINANCIAL ACCOUNTING class project with Prof. Hagit Weihs</p><br>
 				<h1 style ="color:white">BACKGROUND</h1>
 				<p>Hasbro, Inc. and Mattel, Inc. are two of the most recognized toy companies in the U.S.
@@ -877,10 +933,9 @@
 		<br><br>
 		<div id="contact"></div>
 		<br><br>
-
 		<div class= "contacts">
 			<h1 style = "color: white"><strong>CONTACT ME</strong></h1>
-
+			<p style="text-align: center;"><a href ="Images/contactMe.png" ><img src="Images/contactMe.png"  width = "250" height = "250" alt="Social Media"></a></p>
 			<br>
 			<p> Fill your information below and I'll get back to you as soon as possible</p>
 
@@ -897,12 +952,14 @@
 				<input type="submit" value="Submit"><br>
 			</form>
 		</div>
-		<br><br>
+		<br><br><br>
 
 		<div id= "SocialMedia"></div>
 		<h1 style = "color: black"><strong>FOLLOW ME ON SOCIAL MEDIA</strong></h1>
 		<p> Follow me on Twitter, Facebook and LinkedIn</p>
+		<p style="text-align: center;"><a href ="Images/socialMedia.png" ><img src="Images/socialMedia.png"  width = "200" height = "200" alt="Social Media"></a></p>
 		<div class="box">
+		
 			<ul>
 				<li><a href="https://www.facebook.com/kalekem.cleo" >Facebook</a></li>
 				<br>

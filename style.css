@@ -295,6 +295,20 @@ div.vertical-line{
 .finance > p {
 	color: #93B727;
 }
+.cs > p {
+	color: #DCF187;
+}
+.cs >ul >li {
+	color: white;
+	font-size: 1.2em;
+}
+.farmers > p {
+	color: #311746;
+}
+.resumeImage >img {
+	text-align: right;
+	width: 1215;
+}
 img{
 	float: left;
 	margin-right: 15px;
