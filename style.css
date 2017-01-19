@@ -289,6 +289,12 @@ div.vertical-line{
 .roles {
 	font-size: 110%;
 }
+.business > p{
+	color: white;
+}
+.finance > p {
+	color: #93B727;
+}
 img{
 	float: left;
 	margin-right: 15px;
