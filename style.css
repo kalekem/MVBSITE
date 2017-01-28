@@ -431,6 +431,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-align: right;
 }
 
 ul.topnav li {float: left;}
