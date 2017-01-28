@@ -147,7 +147,8 @@ ul {
 	background:#27252E;
 	padding:15px;
 	font-size: 1.2em;
-	margin-right: 30px
+	margin-right: 50px
+	margin-left: 0px;
 	
 }
 .box > p {
@@ -476,6 +477,9 @@ li.dropdown {
     display: inline-block;
 
 }
+.dropdown {
+	float: right;
+}
 
 .dropdown-content {
     display: none;
@@ -581,5 +585,32 @@ li.dropdown {
     to {
         transform: translateY(0);
     }
+}
+
+
+.glyphicon-nav {
+  width: 20px;
+  padding: 8px 0;
+  position: relative;
+  display: inline-block;
+}
+.glyphicon-nav:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  top: 0px;
+}
+.glyphicon-nav:after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  height: 2px;
+  width: 100%;
+  background: blue;
 }
 
