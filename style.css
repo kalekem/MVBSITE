@@ -590,11 +590,12 @@ li.dropdown {
 
 
 .glyphicon-nav {
-  width: 20px;
+  width: 40px;
   padding: 16px 0;
   height: 18px;
   position: relative;
   display: inline-block;
+  background-color: #17E129  
 }
 .glyphicon-nav:before {
   content: '';
