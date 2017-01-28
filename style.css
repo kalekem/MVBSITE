@@ -589,10 +589,11 @@ li.dropdown {
 
 
 .glyphicon-nav {
-  width: 20px;
-  padding: 8px 0;
+  width: 40px;
+  padding: 16px 0;
   position: relative;
   display: inline-block;
+  height: 2px;
 }
 .glyphicon-nav:before {
   content: '';
@@ -607,7 +608,7 @@ li.dropdown {
 .glyphicon-nav:after {
   content: '';
   position: absolute;
-  top: 8px;
+  top: 16px;
   left: 0px;
   height: 2px;
   width: 100%;
